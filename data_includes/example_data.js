@@ -5,7 +5,8 @@ PennController.AddHost("http://files.lab.florianschwarz.net/ibexfiles/PennContro
 
 var items = [
     ["trial", "PennController", PennController(
-        image.defaults.settings.size(200, 200)
+        defaultImage
+	    .settings.size(200, 200)
         ,
         // An image with 2 fish that swim in a round tank
         newImage("target", "2fishRoundTank.png")
