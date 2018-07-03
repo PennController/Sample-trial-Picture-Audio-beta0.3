@@ -7,6 +7,9 @@ var items = [
     ["trial", "PennController", PennController(
         defaultImage
 	    .settings.size(200, 200)
+	,
+	newButton("Start", "Click to Start")
+	    .wait()
         ,
         // An image with 2 fish that swim in a round tank
         newImage("target", "2fishRoundTank.png")
